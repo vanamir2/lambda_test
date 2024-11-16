@@ -32,7 +32,7 @@ def generate_qr_code(text):
     print(f"QR code generated for text: {buffered.getvalue()}")
     return buffered.getvalue()
 
-def handler(event, context):
+def lambda_handler(event, context):
     """
     AWS Lambda handler function.
 
